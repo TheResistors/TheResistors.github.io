@@ -12,10 +12,27 @@
 		object{
 			color: #939393;
 		}
+		#myProgress {
+    		position: relative;
+   			width: 100%;
+    		height: 30px;
+   			background-color: grey;
+		}
+		#myBar {
+   			position: absolute;
+   		 	width: 1%;
+   		 	height: 100%;
+			background-color: green;
+		}
 	</style>
-	<head></head>
+	<head>
+	</head>
 	<body>
-		<h2>The Resistors!</h2>
+		<div id = "virusProgress">
+			<div id="virusBar"></div>
+    			<div id="label">10%</div>
+ 			</div>
+		</div>
 		<div>
 			<object data="txtFiles/description.txt" type="text/plain" width="100%" style="height: 10em">
 			<param name= "font" value= "Times New Roman">
